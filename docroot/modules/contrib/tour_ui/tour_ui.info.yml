@@ -1,0 +1,14 @@
+name: Tour UI
+type: module
+description : 'Provides a UI to manage guided tours.'
+package: Development
+configure: entity.tour.collection
+# core: 8.x
+dependencies:
+  - drupal:tour
+
+# Information added by Drupal.org packaging script on 2018-11-03
+version: '8.x-1.0-beta2'
+core: '8.x'
+project: 'tour_ui'
+datestamp: 1541255078

@@ -1,0 +1,4 @@
+# Schema for the configuration files of the VARTHEME_BS4_SUBTHEME.
+VARTHEME_BS4_SUBTHEME.settings:
+  type: theme_settings
+  label: 'VARTHEME_BS4_SUBTHEME settings'

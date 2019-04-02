@@ -1,0 +1,13 @@
+name: 'Chart.js Charts (Experimental)'
+type: module
+description: 'Charts module integration with Chart.js.'
+package: Charts
+# core: 8.x
+dependencies:
+  - 'charts:charts'
+
+# Information added by Drupal.org packaging script on 2018-10-25
+version: '8.x-3.0-beta2'
+core: '8.x'
+project: 'charts'
+datestamp: 1540444694

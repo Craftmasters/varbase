@@ -1,0 +1,24 @@
+name: Varbase
+type: profile
+description: 'Varbase is an enhanced Drupal distribution with a lot of necessities.'
+core: 8.x
+distribution:
+  name: Varbase
+  install:
+    theme: vartheme_admin
+version: 8.x-6.6
+install:
+  - system
+  - action
+  - user
+  - node
+  - block
+  - help
+themes:
+  - adminimal_theme
+  - bootstrap
+  - vartheme
+  - vartheme_admin
+
+interface translation project: varbase
+interface translation server pattern: profiles/varbase/translations/%language.po

@@ -1,0 +1,14 @@
+name: Image Resize Filter
+type: module
+description: Resizes images based on width and height attributes and optionally link to the original image.
+# core: 8.x
+package: Filters
+configure: filter.admin_overview
+dependencies:
+  - drupal:filter
+
+# Information added by Drupal.org packaging script on 2019-03-04
+version: '8.x-1.0-beta1'
+core: '8.x'
+project: 'image_resize_filter'
+datestamp: 1551698887

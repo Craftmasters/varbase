@@ -1,0 +1,15 @@
+name: 'Localization Client Contributor'
+description: 'Contribute directly to the community from the convenience of your site.'
+type: module
+# core: 8.x
+configure: locale.settings
+dependencies:
+  - xmlrpc
+  - locale
+package: Multilingual
+
+# Information added by Drupal.org packaging script on 2015-12-08
+version: '8.x-1.0-alpha1'
+core: '8.x'
+project: 'l10n_client'
+datestamp: 1449579840

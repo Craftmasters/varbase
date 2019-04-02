@@ -1,0 +1,15 @@
+name: Login Destination
+type: module
+description: Add possibility customize the destination that the user is redirected to after login.
+package: User
+# core: 8.x
+configure: login_destination.settings
+
+test_dependencies:
+  - admin_toolbar:admin_toolbar_tools
+
+# Information added by Drupal.org packaging script on 2019-03-06
+version: '8.x-1.0-alpha1'
+core: '8.x'
+project: 'login_destination'
+datestamp: 1551882795

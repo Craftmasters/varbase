@@ -1,0 +1,14 @@
+name: 'Tour Builder'
+type: module
+description: 'Helps building and editing tours.'
+package: Development
+
+# core: 8.x
+dependencies:
+  - tour_ui:tour_ui
+
+# Information added by Drupal.org packaging script on 2019-02-13
+version: '8.x-1.0-alpha1'
+core: '8.x'
+project: 'tour_builder'
+datestamp: 1550056687
